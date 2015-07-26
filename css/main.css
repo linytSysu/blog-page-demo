@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Lato",sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.sidebar {
+	position: fixed;
+	float: left;
+	width: 22%;
+	height: 100%;
+	background-color: #5F6D7E;
+}
+
+.sidebar-prof {
+	padding-top: 60px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+}
+.prof-pic {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 3px solid white;
+	margin: 0 auto;
+	background-image: url("../images/profile.jpg");
+}
+.prof-head {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.prof-desc {
+	line-height: 30px;
+	font-size: 15px;
+}
+
+.sidebar-contact {
+	color: white;
+	font-size: 25px;
+}
+.sidebar-contact ul {
+	width: 100%;
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+.sidebar-contact li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.sidebar-contact li a {
+	color: white;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+}
+.sidebar-contact li a:hover {
+	color: rgba(73, 84, 97, 1);
+}
+
+.sidebar-menu {
+	margin-top: 30px;
+}
+.menu-list li {
+	display: block;
+	transition: all 0.8s ease-out;
+	-moz-transition: all 0.8s ease-out;
+	-webkit-transition: all 0.8s ease-out;
+	-o-transition: all 0.8s ease-out;
+}
+.menu-list li a {
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	padding: 15px 60px;
+}
+.menu-list li a i {
+	margin-right: 20px;
+	font-size: 24px;
+}
+.menu-list li:hover {
+	background-color: rgba(73, 84, 97, 0.4);
+}
+.menu-list li.active {
+	background-color: rgba(73, 84, 97, 1);
+}
+
+.main-content {
+	float: right;
+	position: relative;
+	width: 78%;
+}
+.welcome {
+	width: 100%;
+	height: 680px;
+	color: #fff;
+	background: transparent url("../images/bg.jpg") no-repeat scroll center center / cover;;
+}
+.banner-overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(95, 109, 126, 0.4) none repeat scroll 0% 0%;
+}
+.welcome-content {
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+.welcome-content p {
+	margin-top: 20px;
+}
