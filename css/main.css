@@ -5,6 +5,7 @@
 
 body {
 	font-family: "Lato",sans-serif;
+	height: 100%;
 }
 
 ul {
@@ -15,6 +16,7 @@ a {
 	text-decoration: none;
 }
 
+/* */
 .sidebar {
 	position: fixed;
 	float: left;
@@ -22,7 +24,6 @@ a {
 	height: 100%;
 	background-color: #5F6D7E;
 }
-
 .sidebar-prof {
 	padding-top: 60px;
 	text-align: center;
@@ -45,7 +46,6 @@ a {
 	line-height: 30px;
 	font-size: 15px;
 }
-
 .sidebar-contact {
 	color: white;
 	font-size: 25px;
@@ -69,7 +69,6 @@ a {
 .sidebar-contact li a:hover {
 	color: rgba(73, 84, 97, 1);
 }
-
 .sidebar-menu {
 	margin-top: 30px;
 }
@@ -97,14 +96,18 @@ a {
 	background-color: rgba(73, 84, 97, 1);
 }
 
+
+/* */
 .main-content {
-	float: right;
-	position: relative;
+	position: absolute;
+	right: 0;
 	width: 78%;
+	height: 100%;
 }
 .welcome {
+	position: absolute;
 	width: 100%;
-	height: 680px;
+	height: 90%;
 	color: #fff;
 	background: transparent url("../images/bg.jpg") no-repeat scroll center center / cover;;
 }
@@ -119,5 +122,40 @@ a {
 	left: 15%;
 }
 .welcome-content p {
+	font-size: 18px;
 	margin-top: 20px;
 }
+.rec-content {
+	position: absolute;
+	bottom: 10%;
+	line-height: 30px;
+}
+.rec-content a {
+	color: #fff;
+}
+.rec-content ul {
+	list-style-type: disc;
+}
+.rec-content li:hover {
+	text-decoration: underline;
+}
+.rec-content h3 {
+	margin-left: -15px;
+}
+.rec-blog {
+	left: 15%;
+}
+.rec-sharing {
+	left: 45%;
+}
+
+/* */
+.footbar {
+	position: absolute;
+	right: 0%;
+	top: 90%;
+	width: 78%;
+	color: #777;
+	text-align: center;
+	padding-top: 20px}
+;
