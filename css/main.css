@@ -83,7 +83,7 @@ a {
 	display: block;
 	font-size: 16px;
 	color: #fff;
-	padding: 15px 60px;
+	padding: 15px 50px;
 }
 .menu-list li a i {
 	margin-right: 20px;
@@ -102,14 +102,14 @@ a {
 	position: absolute;
 	right: 0;
 	width: 78%;
-	height: 100%;
+	height: 90%;
 }
 .welcome {
 	position: absolute;
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	color: #fff;
-	background: transparent url("../images/bg.jpg") no-repeat scroll center center / cover;;
+	background: transparent url("../images/bg.jpg") no-repeat scroll center center / cover;
 }
 .banner-overlay {
 	width: 100%;
@@ -157,5 +157,15 @@ a {
 	width: 78%;
 	color: #777;
 	text-align: center;
-	padding-top: 20px}
-;
+	padding-top: 20px;
+}
+
+
+.contact {
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	height: 100%;
+	background-color: yellow;
+	color: #fff;
+}
