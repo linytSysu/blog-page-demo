@@ -16,6 +16,11 @@ a {
 	text-decoration: none;
 }
 
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
 /* */
 .sidebar {
 	position: fixed;
@@ -81,6 +86,7 @@ a {
 }
 .menu-list li a {
 	display: block;
+	text-decoration: none;
 	font-size: 16px;
 	color: #fff;
 	padding: 15px 50px;
@@ -163,8 +169,37 @@ a {
 
 .contact {
 	position: absolute;
-	left: 5%;
-	width: 90%;
+	left: 10%;
+	width: 80%;
 	height: 100%;
-	color: #fff;
+}
+.contact-head {
+	margin-top: 80px;
+	color: #555;
+}
+.contact-head h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+.contact-head p {
+	font-size: 16px;
+	margin-top: 30px;
+}
+.contact-form {
+	margin-top: 30px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    outline: 0px none;
+    border: 1px solid #AAA;
+    padding: 12px;
+    color: #999;
+    margin-bottom: 30px;
+}
+.contact-form .button {
+	width: auto;
+    background: #5F6D7E none repeat scroll 0% 0%;
+    color: #FFF;
+    text-transform: uppercase;
+    border: 0px none;
 }

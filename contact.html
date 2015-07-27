@@ -3,8 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome | Personal Page</title>
+	
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
 </head>
 <body>
 	<div class="sidebar">
@@ -24,8 +30,8 @@
 
 		<div class="sidebar-menu">
 			<ul class="menu-list">
-				<li class="active">
-					<a href="">
+				<li>
+					<a href="welcome.html">
 						<i class="fa fa-globe"></i> Welcome
 					</a>
 				</li>
@@ -39,8 +45,8 @@
 						<i class="fa fa-pencil"></i> Blog
 					</a>
 				</li>
-				<li>
-					<a href="">
+				<li class="active">
+					<a href="contact.html">
 						<i class="fa fa-envelope"></i> Contact Me
 					</a>
 				</li>
@@ -51,7 +57,28 @@
 
 	<div class="main-content">
 		<div class="contact">
-			
+			<div class="row">
+				<div class="col-md-12 contact-head">
+					<h1>PLACE TO TALK WITH ME</h1>
+					<p>Vestibulum ac iaculis erat, in semper dolor. Maecenas et lorem molestie, maximus justo dignissim, cursus nisl. Nullam at ante quis ex pharetra pulvinar quis id dolor. Integer lorem odio, euismod ut sem sit amet, imperdiet condimentum diam.</p>
+				</div>
+			</div>
+			<div class="row">
+				<form class="contact-form">
+                    <fieldset class="col-md-6 col-sm-6">
+                        <input id="your-name" placeholder="Your Name..." type="text">
+                    </fieldset>
+                    <fieldset class="col-md-6 col-sm-6">
+                        <input id="your-email" placeholder="Your Email..." type="email">
+                    </fieldset>
+                    <fieldset class="col-md-12 col-sm-12">
+                        <textarea id="yourmessage" cols="30" rows="6" placeholder="Leave your message..."></textarea>
+                    </fieldset>
+                    <fieldset class="col-md-12 col-sm-12">
+                        <input class="button" value="Send Message" type="submit">
+                    </fieldset>
+                </form>
+			</div>
 		</div>
 	</div>
 
