@@ -5,7 +5,7 @@
 
 body {
 	font-family: "Lato",sans-serif;
-	height: 100%;
+	background-color: #F4F4F4
 }
 
 ul {
@@ -108,12 +108,14 @@ a {
 	position: absolute;
 	right: 0;
 	width: 78%;
-	height: 90%;
+	height: 100%;
 }
+
+/* */
 .welcome {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 90%;
 	color: #fff;
 	background: transparent url("../images/bg.jpg") no-repeat scroll center center / cover;
 }
@@ -166,7 +168,7 @@ a {
 	padding-top: 20px;
 }
 
-
+/* */
 .contact {
 	position: absolute;
 	left: 10%;
@@ -202,4 +204,85 @@ a {
     color: #FFF;
     text-transform: uppercase;
     border: 0px none;
+}
+
+/* */
+.post {
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+.post-simple {
+	float: left;
+	width: 100%;
+	border-top: 5px solid #3B5998;
+	margin-top: 50px;
+	padding: 10px;
+	background-color: #fff;
+}
+.post-format {
+	width: 55px;
+	height: 55px;
+	margin: -28px auto 0 auto;
+	background-color: #3B5998;
+	text-align: center;
+	transform: rotate(-45deg);
+    transform-origin: 0px 100% 0px;
+}
+.post-format a {
+	color: #fff;
+	font-size: 26px;
+}
+.post-format a i {
+	padding-top: 10px;
+	transform: rotate(45deg);
+    transform-origin: 35% 69% 0px;
+}
+.post-media {
+	float: left;
+	margin: -20px auto 0 auto;
+}
+.post-media img {
+	width: 100%;
+}
+.post-head {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	border-bottom: 1px solid #DDD;
+	color: #3B5998;
+	font-size: 24px;
+}
+.post-head a {
+	text-decoration: none;
+}
+.post-info {
+	color: #585858;
+}
+.post-info ul {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	font-size: 12px;
+}
+.post-info li {
+	border-left: 1px solid #999;
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.post-info li:first-child {
+	border-left: medium none;
+}
+.post-content {
+	float: left;
+	color: #999;
+	margin-top: 20px;
+}
+a.read-more {
+	float: right;
+	padding: 5px 20px;
+	margin-top: 10px;
+	text-decoration: none;
+	border: 1px solid #DADADA;
 }
